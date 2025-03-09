@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitaMeal</title>
+    <link rel="stylesheet" href="set.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="atass">VitaMeal</h1>
+    </div>
+
+    <div class="banner">
+        <img src="IDE BISNIS .png">
+    </div>
+    
+    <div class="bmi">
+        <h1>BMI Calculator</h1>
+    </div>
+
+    <div class="table">
+        <div>
+            <input type="radio" id="cowok" name="gender" value="Laki-Laki">
+            <label for="Laki-Laki">Laki-Laki</label>
+        </div>
+        <div>
+            <input type="radio" id="cewek" name="gender" value="Perempuan">
+            <label for="Perempuan">Perempuan</label>
+        </div>
+        <div>
+            <input type="number" id="berat" placeholder="Berat Balita(Kg)">
+        </div>
+        <div>
+            <input type="number" id="umur" placeholder="Usia Balita(tahun)">
+        </div>
+        <div>
+            <input type="number" id="tinggi" placeholder="Tinggi Balita(Cm)">
+        </div>
+
+        <button onclick="bmi()">Count</button>
+    </div>
+    <div class="jawaban1">
+        <p id="testing"></p>
+    </div>
+    <div class="jawaban2">
+        <p id="normal"></p>
+    </div>
+
+    <div class="meteran">
+        <img src="">
+        <p id="persen"></p>
+    </div>
+
+
+    <div>
+        <h2>Food Recipe</h2>
+        <h3>Masukkan Jumlah Kalori : </h3>
+        <input type="text" id="calorie" placeholder="Jumlah Kalori">
+        <h3>Anak anda biasanya makan berapa kali perhari : </h3>
+        <input type="text" id="perday" placeholder="Per Hari">
+        <button onclick="result()">Recipe</button>
+    </div>
+    <div class="jar">
+        <p id="hasil"></p>
+    </div>
+    
+
+    <script src="coding.js" type="text/javascript" />
+</body>
+
+</html>

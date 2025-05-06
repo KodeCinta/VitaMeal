@@ -65,3 +65,16 @@ function result(){
 
 
 }
+
+let box = document.getElementById("forum");
+
+function forum(){
+    box.classList.remove("hidden")
+    box.classList.add("forum")
+}
+
+function close(){
+    box.classList.remove("forum")
+    box.classList.add("hidden")
+    alert("tes");
+}

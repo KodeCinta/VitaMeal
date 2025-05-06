@@ -7,6 +7,7 @@ body{
 
 .atass{
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     height: 60px;
@@ -15,6 +16,21 @@ body{
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+}
+
+.atass h1{
+    text-align: center;
+    justify-content: center;
+}
+
+.atass img{
+    position: absolute;
+    display: flex;
+    height: 40px;
+    right: 0;
+    cursor: pointer;
 }
 
 .table{
@@ -107,6 +123,69 @@ input[type="radio"] {
     width: 400px;
 }
 
-.meteran{
-    
+.forum {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Biar benar-benar center */
+    background-color: #088f5b;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 500px;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+
+.forbar{
+    margin-top: 20px;
+    background-color: white;
+    height: 100px;
+    width: 300px;
+}
+
+.forum button{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.reply{
+    display: flex;
+}
+
+.reply img{
+    height: 50px;
+    margin: 10px;
+}
+
+.forup{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color:white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+}
+
+.forup img{
+    position: absolute;
+    display: flex;
+    height: 30px;
+    right: 0;
+    cursor: pointer;
+    color: black;
 }
